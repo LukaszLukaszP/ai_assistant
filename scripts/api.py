@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from scripts.email_service import send_email
 from scripts.calendar_service import add_calendar_event
-from scripts.telegram_service import send_telegram_message
+from scripts.telegram_bot import send_telegram_message
 
 app = FastAPI()
 
